@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="assortment">
+      <HintPath>..\..\assortment\assortment\bin\Debug\net8.0-windows\assortment.dll</HintPath>
+    </Reference>
+    <Reference Include="departments">
+      <HintPath>..\..\departments\departments\bin\Debug\net8.0-windows\departments.dll</HintPath>
+    </Reference>
+    <Reference Include="deskbooks">
+      <HintPath>..\..\deskbooks\deskbooks\bin\Debug\net8.0-windows\deskbooks.dll</HintPath>
+    </Reference>
+    <Reference Include="documents">
+      <HintPath>..\..\documents\documents\bin\Debug\net8.0-windows\documents.dll</HintPath>
+    </Reference>
+    <Reference Include="help">
+      <HintPath>..\..\help\help\bin\Debug\net8.0-windows\help.dll</HintPath>
+    </Reference>
+    <Reference Include="products">
+      <HintPath>..\..\products\products\bin\Debug\net8.0-windows\products.dll</HintPath>
+    </Reference>
+    <Reference Include="sellers">
+      <HintPath>..\..\sellers\sellers\bin\Debug\net8.0-windows\sellers.dll</HintPath>
+    </Reference>
+    <Reference Include="settings">
+      <HintPath>..\..\settings\settings\bin\Debug\net8.0-windows\settings.dll</HintPath>
+    </Reference>
+    <Reference Include="ShopLib">
+      <HintPath>..\..\ShopLib\ShopLib\bin\Debug\net8.0\ShopLib.dll</HintPath>
+    </Reference>
+    <Reference Include="shops">
+      <HintPath>..\..\shops\shops\bin\Debug\net8.0-windows\shops.dll</HintPath>
+    </Reference>
+    <Reference Include="suppliers">
+      <HintPath>..\..\suppliers\suppliers\bin\Debug\net8.0-windows\suppliers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
